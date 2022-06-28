@@ -30,7 +30,7 @@ export default class Form extends React.Component {
           />
         </div>
 
-        <Button>Botão</Button>
+        <Button>Adicionar</Button>
       </form>
     );
   }
