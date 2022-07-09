@@ -16,6 +16,7 @@
     "sass": "^1.53.0",
     "typescript": "^4.7.4",
     "typescript-plugin-css-modules": "^3.4.0",
+    "uuid": "^8.3.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -41,5 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/uuid": "^8.3.4"
   }
 }
