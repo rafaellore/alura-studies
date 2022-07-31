@@ -50,7 +50,6 @@ export default class Form extends React.Component<{
             name="tempo"
             id="tempo"
             min="00:00:00"
-            max="01:30:00"
             required
             value={this.state.time}
             onChange={(event) =>
@@ -59,7 +58,7 @@ export default class Form extends React.Component<{
           />
         </div>
 
-        <Button type="submit">Adicionar</Button>
+        <Button onClick={() => {}} type="submit">Adicionar</Button>
       </form>
     );
   }
